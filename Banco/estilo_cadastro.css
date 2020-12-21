@@ -1,0 +1,54 @@
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: url(img/fundo.jpg) no-repeat top center;
+}
+#fundo {
+  width: 600px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 120px;
+  text-align: center;
+}
+#fundo img {
+  width: 100px;
+  height: 100px;
+  margin-top: -60px;
+  margin-bottom: 30px;
+}
+input {
+  height: 40px;
+  width: 80%;
+  font-size: 18px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding-left: 40px;
+  border: none;
+  background-repeat: no-repeat;
+  background-position: 10px;
+}
+input.botao {
+  color: #fff;
+  background-color: #6495ed;
+  border: 2px solid #1e90ff;
+  padding: 5px 20px;
+  height: 45px;
+  width: 90%;
+}
+input.nome {
+  background-image: url(img/login.png);
+}
+input.senha {
+  background-image: url(img/senha.png);
+}
+input.nascimento {
+  background-image: url(img/login_cadastro.png);
+  background-position: left;
+  background-size: 35px;
+}
+input.deposito {
+  background-image: url(img/dinheiro.png);
+  background-position: left;
+  background-size: 35px;
+}
